@@ -1,0 +1,159 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* untuk NAVBAR */
+  .nav .container {
+    display: flex;
+    align-items: center;
+  }
+  .navcontainer {
+    background-color: #ffffff;
+    width: 100%;
+    gap: 10%;
+    height: 90px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);  
+  }
+  .nav .brand {
+    width: 15%;
+    font-weight: bold;
+    font-size: 24px;
+    color: #0084ff;
+    margin-top: 35px;
+  }
+  .nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    font-size: 16px;
+    margin-top: 25px;
+  }
+  .nav .menu-item {
+    color: #000000;
+    text-decoration: none;
+  }
+  .nav .menu-item:hover {
+    color: #0084ff;;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+  .select{
+    display: flex;
+    gap: 5px;
+    margin-right: 10px;
+    margin-top: 25px;
+  }
+  .ctas{
+    width: 135px;
+    margin-top: 5px;
+    justify-content: center;
+  }
+  .button-donasi{
+    width: 100px;
+    padding: 10px;
+    background: #0084ff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+  }
+  .button-donasi:hover{
+    background: #ffffff;
+    color: #0084ff;
+    border: solid #0084ff 1px ;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+  }
+  .cari input{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(226, 226, 226);
+    color: #000000;
+    height: 30px;
+    padding: 10px;
+  }
+  .select select{
+    border: none;
+    color: #000000;
+    height: 30px;
+    background-color: #fff;
+  }
+
+  /* Untuk HERO */
+  .hero-tittle{
+    font-size: 48px;
+  }
+  .hero-tittle span{
+    color: #0084ff;
+  }
+  .hero-desc{
+    font-size: 19px;
+    width: 75%;
+  }
+  .head{
+    display: flex;
+  }
+  .hero-img{
+    margin-top: 80px;
+  }
+  .hero-brand{
+    height: 20%;
+    margin-top: 90px;
+  }
+  /* untuk cta-primary */
+  .cta-primary{
+    margin-top: 80px;
+  }
+  .infaq{
+    background-color: #0084ff;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 12px 22px;
+    text-decoration: none;
+  }
+  .zakat{
+    background-color: #fff;
+    border: 3px solid #0084ff;
+    color: #0084ff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  .infaq:hover{
+    background-color: rgb(38, 38, 243);
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 22px;
+    transition: .5s ease-in-out  ;
+    text-decoration: none;
+  }
+  .zakat:hover{
+    background-color: #0084ff;
+    border: 3px solid #0084ff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: .5s ease-in-out  ;
+    text-decoration: none;
+  }
+  /* information */
+  .info{
+    background-color: #0084ff;
+  }
+  .info-head{
+    display: flex;
+  }
+  .info-brand  {
+    width: 50%;
+  }
+  .info-header{
+    justify-content: right;
+  }
